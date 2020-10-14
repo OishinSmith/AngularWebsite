@@ -11,16 +11,17 @@ import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { SocialComponent } from './social/social.component';
+import { MainPageComponent } from './main-page/main-page.component'
 
 
 const routes: Routes = [
   { path: "", redirectTo: "/Home", pathMatch: "full" },
-  { path: "Home", component: HeaderComponent},
-  { path: "About", component: IntroComponent},
+  { path: "Home", component: MainPageComponent},
+  { path: "About", component: MainPageComponent},
   { path: "Gallery", component: GalleryComponent},
-  { path: "Services", component: ContentComponent},
+  { path: "Services", component: MainPageComponent},
   { path: "The team", component: ThankyouComponent},
-  { path: "Portfolio", component: PreviousWorkComponent},
+  { path: "Portfolio", component: MainPageComponent},
   { path: "Pricing", component: DonationsComponent},
 ];
 
