@@ -11,7 +11,8 @@ import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { SocialComponent } from './social/social.component';
-import { MainPageComponent } from './main-page/main-page.component'
+import { MainPageComponent } from './main-page/main-page.component';
+import { HobbiesComponent } from './hobbies/hobbies.component';
 
 
 const routes: Routes = [
@@ -19,10 +20,10 @@ const routes: Routes = [
   { path: "Home", component: MainPageComponent},
   { path: "About", component: MainPageComponent},
   { path: "Gallery", component: GalleryComponent},
-  { path: "Services", component: MainPageComponent},
+  { path: "Timeline", component: MainPageComponent},
   { path: "The team", component: ThankyouComponent},
   { path: "Portfolio", component: MainPageComponent},
-  { path: "Pricing", component: DonationsComponent},
+  { path: "Hobbies", component: HobbiesComponent},
 ];
 
 @NgModule({

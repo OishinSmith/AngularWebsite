@@ -15,6 +15,7 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { SocialComponent } from './social/social.component';
 import { MainPageComponent } from './main-page/main-page.component';
 import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
+import { HobbiesComponent } from './hobbies/hobbies.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
     HeaderComponent,
     NavigationComponent,
     SocialComponent,
-    MainPageComponent
+    MainPageComponent,
+    HobbiesComponent
   ],
   imports: [
     BrowserModule,
